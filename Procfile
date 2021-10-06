@@ -1,2 +1,2 @@
-web: gunicorn djangoappadir.wsgi
+web: gunicorn djangoappadir.wsgi --log-file -
 
