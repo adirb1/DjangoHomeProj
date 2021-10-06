@@ -1,22 +1,6 @@
-
-nose==1.3.7
-notebook @ file:///C:/ci/notebook_1601501643625/work
-numba==0.51.2
-numexpr==2.7.1
-numpy @ file:///C:/ci/numpy_and_numpy_base_1603466732592/work
-numpydoc @ file:///tmp/build/80754af9/numpydoc_1605117425582/work
-olefile==0.46
-openpyxl @ file:///tmp/build/80754af9/openpyxl_1598113097404/work
-packaging==20.4
-pandas @ file:///C:/ci/pandas_1602083338010/work
-pandas-datareader==0.10.0
-pandocfilters @ file:///C:/ci/pandocfilters_1605102497129/work
-paramiko @ file:///tmp/build/80754af9/paramiko_1598886428689/work
-parse==1.19.0
 parsel==1.5.2
 parso==0.7.0
 partd==1.1.0
-path @ file:///C:/ci/path_1598358556930/work
 pathlib2==2.3.5
 pathtools==0.1.2
 patsy==0.5.1
