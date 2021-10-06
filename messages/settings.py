@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-+&rmg#mc6w4q_!(l%1c)^c-ia#5g8s$o8)#6j_b73_c1tgp)od'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['djangoappadir.herokuapp.com']
+ALLOWED_HOSTS = ['djangoappadir.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -136,7 +136,7 @@ STATICFILES_DIRS = (
 )
 
 #  Add configuration for static files storage using whitenoise
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 prod_db = dj_database_url.config(conn_max_age=500)
