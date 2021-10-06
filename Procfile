@@ -1,2 +1,2 @@
-web: gunicorn messages.wsgi
+web: gunicorn djangoappadir.wsgi
 
